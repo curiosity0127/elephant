@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://cdn2.ettoday.net/images/3694/d3694948.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #CCFF66;
+  padding: 100px 0px;
+}
+
+hr {
+  max-width: 300px;
+  border: solid 2px #FF99CC;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+h4 {
+  color: #66FFE6;
+}
+
+section#section_ask {
+  background-color: #FF99CC;
+}
+section#section_ask .col-sm-6.img {
+  background-image: url(https://fpscdn.yam.com/world/201611/e1/7a/581bcec32e17a.jpg);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: color-burn;
+}
+
+h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  background-color: #CCFF66;
+}
+section#section_about img {
+  width: 125%;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
+
+section#section_video {
+  background-color: #66CCCC;
+}
